@@ -28,6 +28,7 @@ body {
 
 #minha_foto {
     width: 15em;
+    border-radius: 5%;
 }
 
 #link {
@@ -55,4 +56,27 @@ body {
 #licoes_a_aprender {
     padding: 0 25% 0;
     font-size: 130%;
+}
+
+#article {
+    padding: 0 3em 2em;
+    font-size: 120%;
+    float: left;
+    width: 40%;
+}
+
+#aside {
+    position: relative;
+    padding: 0 3em 2em;
+    font-size: 120%;
+}
+
+#rodape {
+    float: left;
+    width: 100%;
+    padding-left: 4em;
+    padding-top: 0.5em;
+    background-color: rgba(216, 216, 216, 0.279);
+    color: rgb(152, 152, 152);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
