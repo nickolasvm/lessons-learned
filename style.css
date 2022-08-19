@@ -9,10 +9,9 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    background-color: green;
+    background-color: rgb(53, 140, 53);
     width: 100%;
-    padding: 50px;
-    border: 0;
+    padding: 3em;
 }
 
 #titulo {
@@ -23,6 +22,18 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.section-picture {
+    padding: 10em 2em 0;
+    /* padding: 5px 10px 15px 20px; */
+}
+
 #minha_foto {
-    width: 150px;
+    width: 15em;
+}
+
+#link {
+    display: block;
+    padding: 1em 0;
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
