@@ -24,7 +24,6 @@ body {
 
 .section-picture {
     padding: 10em 2em 0;
-    /* padding: 5px 10px 15px 20px; */
 }
 
 #minha_foto {
@@ -33,7 +32,27 @@ body {
 
 #link {
     display: block;
-    padding: 1em 0;
+    padding: 0.5em 0;
     font-size: 150%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section-lessons {
+    padding: 3em 2em 3em;
+}
+
+#title-lessons {
+    padding: 0 0 2em;
+    font-size: 180%;
+}
+
+#licoes_aprendidas {
+    width: 20%;
+    float: left;
+    font-size: 130%;
+}
+
+#licoes_a_aprender {
+    padding: 0 25% 0;
+    font-size: 130%;
 }
