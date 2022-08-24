@@ -15,9 +15,7 @@ body {
 }
 
 #titulo {
-    position: relative;
-    top: 0;
-    left: 24em;
+    text-align: center;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -58,18 +56,41 @@ body {
     font-size: 130%;
 }
 
-#article {
-    padding: 0 3em 2em;
-    font-size: 120%;
-    float: left;
-    width: 40%;
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
-#aside {
-    position: relative;
-    padding: 0 3em 2em;
+/* artigo */
+.lado-esquerdo {
+    border-style: dotted;
     font-size: 120%;
+    max-width: 40%;
+    padding: 2em;
 }
+
+/* aside */
+.lado-direito {
+    border-style: dotted;
+    float: right;
+    line-height: 150%;
+    font-size: 120%;
+    padding: 2em;
+    max-width: 40%;
+    flex-grow: 1;
+}
+
+.table {
+    display: table;
+    background-color: rgb(153, 153, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    text-align: left;
+}
+
 
 #rodape {
     float: left;
